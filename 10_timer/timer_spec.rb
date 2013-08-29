@@ -55,6 +55,6 @@ describe "Timer" do
      it "doesn't pad a two-digit number" do
        @timer.padded(12).should == '12'
      end
-  # end
+   end
 
 end
